@@ -1,0 +1,33 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+div{display: flex;
+    height:500px;
+    width:400px;
+    margin-top: auto;
+    padding: 20px;
+    box-shadow: 10px 20px 35px rgb(0, 0, 0);
+    background-color: rgb(0, 104, 104);
+    justify-content: center;
+    align-items: center;
+
+}
+label{
+    color: white;
+}
+input,select{
+    
+    text-indent: 5px;
+    border: none;
+    outline: rgb(0, 102, 100) 2px solid;
+    padding: 12px 16px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#sel{
+    width: 100%;
+}
